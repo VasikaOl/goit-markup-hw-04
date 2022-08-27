@@ -1,0 +1,431 @@
+/* ACCENT COLOR */
+:root {
+  --primery-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+  --dark-accent-color: #212121;
+  --grey-accent-color: #757575;
+  --white-accent-color: #ffffff;
+  --black-accent-color: #000000;
+  --dark-background-accent-color: #2f303a;
+  --blue-background-accent-color: #188ce8;
+  --white-background-accent-color: #f5f4fa;
+  --white-border-color: #eeeeee;
+}
+
+/* Dropping */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: var(--primery-font);
+  color: var(--dark-accent-color);
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* HEADER */
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  column-gap: 50px;
+}
+.menu-list-contact {
+  display: flex;
+}
+.header-page-logo {
+  margin-right: 93px;
+}
+.page-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: var(--black-accent-color);
+}
+.menu .link.current {
+  color: var(--accent-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--dark-accent-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.contact-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--grey-accent-color);
+  margin-right: 50px;
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+.menu-list-contact {
+  margin-left: auto;
+}
+.contact-phone-number {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--grey-accent-color);
+}
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+  color: var(--accent-color);
+}
+.icon-smartphone,
+.envelope-image {
+  /* display: flex;
+  align-items: center; */
+}
+/* .hero-section, */
+.footer {
+  background: var(--dark-background-accent-color);
+}
+.title-advantages,
+.title-portfolio {
+  display: none;
+}
+.title-portfolio {
+}
+
+/* HERO */
+.hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1600px 600px;
+}
+.hero-title {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 696px;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-accent-color);
+}
+.modal-open-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--white-accent-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+  background: var(--blue-background-accent-color);
+}
+.title {
+  margin-bottom: 50px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.background-hero {
+  /* background-image: url(../images/hero/bg.jpg); */
+}
+
+/* ADVANTAGES */
+.advantages {
+  display: flex;
+  gap: 30px;
+}
+.advantages-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.second-advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.advantages-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--grey-accent-color);
+}
+
+/* SPECIALIZATION */
+.specialization {
+  display: flex;
+  gap: 30px;
+}
+.title-specialization {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-specialization {
+  padding-top: auto;
+  padding-bottom: 94px;
+}
+
+/* TEAM */
+.team-section {
+  background-color: var(--white-background-accent-color);
+}
+.team-list {
+  display: flex;
+  gap: 30px;
+}
+.team-img {
+  margin-bottom: 30px;
+}
+.team-title,
+.customer-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.second-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+  color: var(--grey-accent-color);
+}
+.team-item {
+  background: var(--white-accent-color);
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--white-accent-color);
+}
+/* CUSTOMERS */
+.customer-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.customer-list-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+.customer-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.customer-list-link:hover,
+.customer-list-link:focus {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
+.customer-list-link:hover .customer-list-icon,
+.customer-list-link:focus .customer-list-icon {
+  fill: var(--accent-color);
+}
+
+/* FOOTER */
+.address-footer {
+  margin-top: 20px;
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-address-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.logo-footer {
+  color: var(--white-accent-color);
+}
+
+.address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--white-accent-color);
+}
+.address-contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--accent-color);
+}
+
+/* PORTFOLIO */
+.portfolio-menu {
+  display: flex;
+  column-gap: 8px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.portfolio-card {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.text-border {
+  padding: 20px 24px;
+  border: 1px solid var(--white-border-color);
+  border-top: none;
+}
+.portfolio-open-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background: var(--white-background-accent-color);
+  color: var(--dark-accent-color);
+  border-radius: 4px;
+  border: none;
+}
+.border-button {
+  padding: 6px 22px;
+}
+.first-button {
+  padding: 6px 25px;
+}
+.portfolio-open-btn:hover,
+.portfolio-open-btn:focus {
+  background: var(--accent-color);
+  color: var(--white-accent-color);
+}
+.portfolio-img-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--dark-accent-color);
+  margin-bottom: 4px;
+}
+.portfolio-img-name {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+
+  color: var(--grey-accent-color);
+}
