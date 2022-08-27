@@ -223,6 +223,27 @@ img {
   letter-spacing: 0.03em;
   color: var(--grey-accent-color);
 }
+.advantages-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.advantages-list-icon {
+  width: 70px;
+  height: 70px;
+}
+.advantages-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  cursor: unset;
+}
 
 /* SPECIALIZATION */
 .specialization {
@@ -372,6 +393,44 @@ img {
 .address-contact:hover,
 .address-contact:focus {
   color: var(--accent-color);
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
+}
+.footer-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.footer-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-list-link:hover,
+.footer-list-link:focus {
+  background: #2196f3;
 }
 
 /* PORTFOLIO */
