@@ -128,6 +128,18 @@ img {
 .contact-phone-number:focus {
   color: var(--accent-color);
 }
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  padding-top: 2px;
+}
+.envelope-image {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  padding-top: 2px;
+}
 
 .footer {
   background: var(--dark-background-accent-color);
@@ -196,9 +208,6 @@ img {
   padding-bottom: 94px;
 }
 
-.background-hero {
-  /* background-image: url(../images/hero/bg.jpg); */
-}
 
 /* ADVANTAGES */
 .advantages {
