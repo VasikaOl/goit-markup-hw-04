@@ -128,12 +128,7 @@ img {
 .contact-phone-number:focus {
   color: var(--accent-color);
 }
-.icon-smartphone,
-.envelope-image {
-  /* display: flex;
-  align-items: center; */
-}
-/* .hero-section, */
+
 .footer {
   background: var(--dark-background-accent-color);
 }
@@ -145,23 +140,27 @@ img {
 }
 
 /* HERO */
-.hero-section {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-color: #c4c4c4;
+.container-hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #c4c4c4;
+  border: 1px solid #000000;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero/bg.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  background-size: 1600px 600px;
 }
 .hero-title {
   display: block;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  width: 696px;
+  padding-top: 200px;
   margin-bottom: 30px;
+  width: 696px;
 
   font-weight: 900;
   font-size: 44px;
@@ -299,6 +298,9 @@ img {
 }
 .team-item {
   background: var(--white-accent-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .social-list {
   display: flex;
@@ -447,6 +449,12 @@ img {
 }
 .portfolio-card {
   flex-basis: calc((100% - 60px) / 3);
+}
+.card-link:hover,
+.card-link:focus {
+  display: block;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .text-border {
   padding: 20px 24px;
