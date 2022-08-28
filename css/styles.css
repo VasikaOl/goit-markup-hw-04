@@ -103,6 +103,8 @@ img {
   color: var(--accent-color);
 }
 .contact-mail {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -118,6 +120,8 @@ img {
   margin-left: auto;
 }
 .contact-phone-number {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -132,13 +136,11 @@ img {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  padding-top: 2px;
 }
 .envelope-image {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  padding-top: 2px;
 }
 
 .footer {
@@ -207,7 +209,6 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 
 /* ADVANTAGES */
 .advantages {
