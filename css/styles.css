@@ -133,15 +133,16 @@ img {
   color: var(--accent-color);
 }
 .icon-smartphone {
-  width: 10px;
-  height: 16px;
+  width: 16px;
   margin-right: 10px;
+  fill: currentColor;
 }
 .envelope-image {
   width: 16px;
-  height: 12px;
   margin-right: 10px;
+  fill: currentColor;
 }
+
 
 .footer {
   background: var(--dark-background-accent-color);
@@ -159,8 +160,9 @@ img {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background: #c4c4c4;
-  border: 1px solid #000000;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero/bg.jpg);
   background-repeat: no-repeat;
@@ -172,7 +174,6 @@ img {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 200px;
   margin-bottom: 30px;
   width: 696px;
 
@@ -191,11 +192,13 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
 
   color: var(--white-accent-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 .modal-open-btn:hover,
 .modal-open-btn:focus {
@@ -330,7 +333,10 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50px;
-  margin-bottom: 30px;
+  
+}
+.social-list {
+margin-bottom: 30px;
 }
 .social-list-link:hover,
 .social-list-link:focus {
