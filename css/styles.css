@@ -142,8 +142,6 @@ img {
   margin-right: 10px;
   fill: currentColor;
 }
-
-
 .footer {
   background: var(--dark-background-accent-color);
 }
@@ -151,9 +149,6 @@ img {
 .title-portfolio {
   display: none;
 }
-.title-portfolio {
-}
-
 /* HERO */
 .container-hero {
   max-width: 1600px;
@@ -333,10 +328,9 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50px;
-  
 }
 .social-list {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .social-list-link:hover,
 .social-list-link:focus {
